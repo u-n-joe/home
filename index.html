@@ -12,6 +12,23 @@
   <script type="text/javascript" src="js/style.js"></script>
   <title>최정훈 - 장난감 코딩</title>
   <style>
+    div {
+        width: 100%;
+        height: 500px;
+        border: 1px solid #003458;
+      }
+      div.left {
+        width: 30%;
+        float: left;
+        box-sizing: border-box;
+        background: #8977ad;
+      }
+      div.right {
+        width: 70%;
+        float: right;
+        box-sizing: border-box;
+        background: #ece6cc;
+      }
     @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 
     * {
@@ -287,6 +304,14 @@
 </head>
 
 <body>
+   <div>
+      <div class="left">
+        왼쪽
+      </div>
+      <div class="right">
+        오른쪽
+      </div>
+    </div>
   <div class="wrap">
     <div class="profile"></div>
     <h1 class="main">최정훈</h1>
